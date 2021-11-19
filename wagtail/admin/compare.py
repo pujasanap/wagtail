@@ -484,6 +484,7 @@ class ChildRelationComparison:
         Returns true if any changes were made to any of the child objects. This includes
         adding, deleting and reordering.
         """
+        
         objs_a = list(self.val_a.all())
         objs_b = list(self.val_b.all())
 
